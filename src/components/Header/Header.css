@@ -1,0 +1,52 @@
+.container__intro{
+    position: relative;
+    padding-top: 56%;
+}
+
+.videoIntro{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.infoIntro{
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    color: #fff;
+    
+}
+.infoIntro__heading{
+    font-size: 100px;
+    transition: all 0.3s ease;
+}
+.infoIntro__overview{
+    max-width: 550px;
+    width: 100%;
+    line-height: 1;
+    padding-top: 18px;
+    font-size: 18px;
+}
+@media screen and (max-width:800px) {
+    .infoIntro{
+        top:45%;
+        left:25px;
+    }
+    .infoIntro__heading{
+        font-size: 40px;
+    }
+    .infoIntro__overview{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:800px) {
+    .infoIntro{
+        top:30%;
+        left:15px;
+    }
+    .infoIntro__heading{
+        font-size: 30px;
+    }
+    .infoIntro__overview{
+        font-size: 14px;
+    }
+}
